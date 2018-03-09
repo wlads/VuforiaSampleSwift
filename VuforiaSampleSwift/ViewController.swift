@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let vuforiaLicenseKey = "Your License Key"
-    let vuforiaDataSetFile = "Target XML File"
+    let vuforiaLicenseKey = "AeuVqK7/////AAAAmYkyI8qvr0a3szgUTAa4tqkb1WdJ7LQrg/W/TUH69/Z6xBiC9ML3vViNYZ6Gt7ZogKx8J4P014gPysMziUwfLCALOBx10QnZ0eCnjuUFWB+3haIPCn9LtGiH/528N5eph52a5FGQcwZetWUKY4Dn05iPcINVZhK8Pw9xeFmVg9AItUKETKmuDxs0D7kZ0MJiXJ0rG++bPW7XbhPqSNQJi787A5zld7aNfSGuO9OGebpsgeO8a7tBwyZpc50pPzlz4V0U2jzfTchQFsZc7mE4/90aYSJiZdYALIwiBZfXa/3me/O2R/6fzW37J1holew484aYdEok1c3PGvYN55ilS7gYX9cJYLCgMDm2KHZO4BdR"
+    let vuforiaDataSetFile = "StonesAndChips.xml"
     
     var vuforiaManager: VuforiaManager? = nil
     
