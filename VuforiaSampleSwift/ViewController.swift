@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import ModelIO
+import SceneKit
+import SceneKit.ModelIO
 
 class ViewController: UIViewController {
     
@@ -147,7 +150,7 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
         
         if let sceneName = userInfo["scene"] as? String , sceneName == "stones" {
             print("stones scene")
-            return createStonesScene(with: view)
+            return createSofa(with: view)
         }else {
             print("chips scene")
             return createChipsScene(with: view)
@@ -227,6 +230,51 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
         scene.rootNode.addChildNode(boxNode)
         
         return scene
+    }
+    
+    func createSofa(with view: VuforiaEAGLView) -> SCNScene {
+        // Load the .OBJ file
+        //MAIS_reduzido_SOFA_BAROLI_II_3L_LINN_II_OFF_WHITE
+        guard let url = Bundle.main.url(forResource: "couro_bege", withExtension: "obj") else {
+            fatalError("Failed to find model file.")
+        }
+        
+        let asset = MDLAsset(url:url)
+        guard let object = asset.object(at: 0) as? MDLMesh else {
+            fatalError("Failed to get mesh from asset.")
+        }
+        
+        // Wrap the ModelIO object in a SceneKit object
+        let node = SCNNode(mdlObject: object)
+        let scene = SCNScene()
+        scene.rootNode.addChildNode(node)
+        
+        // WB: define light?
+        let lightNode = SCNNode()
+        lightNode.light = SCNLight()
+        lightNode.light?.type = .omni
+        lightNode.light?.color = UIColor.lightGray
+        lightNode.position = SCNVector3(x:0, y:120, z:100)
+        scene.rootNode.addChildNode(lightNode)
+        
+        let ambientLightNode = SCNNode()
+        ambientLightNode.light = SCNLight()
+        ambientLightNode.light?.type = .ambient
+        ambientLightNode.light?.color = UIColor.darkGray
+        scene.rootNode.addChildNode(ambientLightNode)
+
+        // WB: define rotation and scale for the model
+        node.rotation = SCNVector4.init(x:1, y:0, z:0, w:1.5708)
+        view.objectScale = 0.003
+        view.setOffTargetTrackingMode(true)
+
+        // Set up the SceneView
+//        sceneView.debugOptions = .ShowWireframe
+//        sceneView.autoenablesDefaultLighting = true
+//        sceneView.allowsCameraControl = true
+//        sceneView.scene = scene
+//        sceneView.backgroundColor = UIColor.white
+        return scene;
     }
     
     func vuforiaEAGLView(_ view: VuforiaEAGLView!, didTouchDownNode node: SCNNode!) {

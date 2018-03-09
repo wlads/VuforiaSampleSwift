@@ -28,6 +28,10 @@
 		92AA11101D27A5EB00E56CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AA110F1D27A5EB00E56CBE /* Assets.xcassets */; };
 		92AA11131D27A5EB00E56CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AA11111D27A5EB00E56CBE /* LaunchScreen.storyboard */; };
 		92AA11851D27B96300E56CBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AA11841D27B96300E56CBE /* Localizable.strings */; };
+		E4B7A9412052F752000F4C9D /* Leather_bege.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B7A93D2052F752000F4C9D /* Leather_bege.jpg */; };
+		E4B7A9422052F752000F4C9D /* couro_bege.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E4B7A93E2052F752000F4C9D /* couro_bege.mtl */; };
+		E4B7A9432052F752000F4C9D /* couro_bege.obj in Resources */ = {isa = PBXBuildFile; fileRef = E4B7A93F2052F752000F4C9D /* couro_bege.obj */; };
+		E4B7A9442052F752000F4C9D /* WoodFine_marrom_escuro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B7A9402052F752000F4C9D /* WoodFine_marrom_escuro.jpg */; };
 		E4E82D032049DC26003E65A7 /* license_3rdpartynotice.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4E827F82049DC24003E65A7 /* license_3rdpartynotice.txt */; };
 		E4E82FF42049DC26003E65A7 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4E82C3D2049DC25003E65A7 /* readme.txt */; };
 		E4E8301F2049DC26003E65A7 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4E82C8C2049DC25003E65A7 /* readme.txt */; };
@@ -69,6 +73,10 @@
 		92AA11141D27A5EB00E56CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92AA11801D27A6CD00E56CBE /* VuforiaSampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VuforiaSampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		92AA11841D27B96300E56CBE /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E4B7A93D2052F752000F4C9D /* Leather_bege.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leather_bege.jpg; sourceTree = "<group>"; };
+		E4B7A93E2052F752000F4C9D /* couro_bege.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = couro_bege.mtl; sourceTree = "<group>"; };
+		E4B7A93F2052F752000F4C9D /* couro_bege.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = couro_bege.obj; sourceTree = "<group>"; };
+		E4B7A9402052F752000F4C9D /* WoodFine_marrom_escuro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodFine_marrom_escuro.jpg; sourceTree = "<group>"; };
 		E4E827F82049DC24003E65A7 /* license_3rdpartynotice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license_3rdpartynotice.txt; sourceTree = "<group>"; };
 		E4E82C3D2049DC25003E65A7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		E4E82C8C2049DC25003E65A7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
@@ -256,6 +264,7 @@
 		92AA11071D27A5EB00E56CBE /* VuforiaSampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E4B7A93C2052F752000F4C9D /* SOFA_SYME_3L_APP_COURO_BEGE */,
 				92AA11801D27A6CD00E56CBE /* VuforiaSampleSwift-Bridging-Header.h */,
 				927B76E31D27FF2300C4F5CC /* VuforiaManager */,
 				92AA11081D27A5EB00E56CBE /* AppDelegate.swift */,
@@ -270,6 +279,17 @@
 				927B76DF1D27FE5900C4F5CC /* Frameworks */,
 			);
 			path = VuforiaSampleSwift;
+			sourceTree = "<group>";
+		};
+		E4B7A93C2052F752000F4C9D /* SOFA_SYME_3L_APP_COURO_BEGE */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7A93D2052F752000F4C9D /* Leather_bege.jpg */,
+				E4B7A93E2052F752000F4C9D /* couro_bege.mtl */,
+				E4B7A93F2052F752000F4C9D /* couro_bege.obj */,
+				E4B7A9402052F752000F4C9D /* WoodFine_marrom_escuro.jpg */,
+			);
+			path = SOFA_SYME_3L_APP_COURO_BEGE;
 			sourceTree = "<group>";
 		};
 		E4E827F62049DC24003E65A7 /* vuforia-sdk-ios-7-0-47 */ = {
@@ -503,9 +523,13 @@
 				9275279C1FC2CE5200CE7DCE /* Background.fragsh in Resources */,
 				9275279D1FC2CE5200CE7DCE /* Background.vertsh in Resources */,
 				92AA11131D27A5EB00E56CBE /* LaunchScreen.storyboard in Resources */,
+				E4B7A9422052F752000F4C9D /* couro_bege.mtl in Resources */,
 				92AA11101D27A5EB00E56CBE /* Assets.xcassets in Resources */,
+				E4B7A9432052F752000F4C9D /* couro_bege.obj in Resources */,
 				92AA11851D27B96300E56CBE /* Localizable.strings in Resources */,
+				E4B7A9442052F752000F4C9D /* WoodFine_marrom_escuro.jpg in Resources */,
 				E4E8302D2049DCD6003E65A7 /* IT.png in Resources */,
+				E4B7A9412052F752000F4C9D /* Leather_bege.jpg in Resources */,
 				E4E8302C2049DCD6003E65A7 /* StonesAndChips.dat in Resources */,
 				E4E82D032049DC26003E65A7 /* license_3rdpartynotice.txt in Resources */,
 				E4E830292049DCD6003E65A7 /* Tarmac.xml in Resources */,
