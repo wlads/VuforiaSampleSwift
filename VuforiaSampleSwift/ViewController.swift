@@ -265,8 +265,10 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
 
         // WB: define rotation and scale for the model
         node.rotation = SCNVector4.init(x:1, y:0, z:0, w:1.5708)
-        view.objectScale = 0.003
-        view.setOffTargetTrackingMode(true)
+        view.objectScale = 0.021
+
+//        using setExtendedTrackingMode in vuforiaManager
+//        view.setOffTargetTrackingMode(true)
 
         // Set up the SceneView
 //        sceneView.debugOptions = .ShowWireframe
