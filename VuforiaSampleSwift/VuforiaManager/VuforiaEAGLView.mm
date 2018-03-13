@@ -217,7 +217,7 @@ namespace VuforiaEAGLViewUtils
 - (void)setupRenderer {
     _startTime = CFAbsoluteTimeGetCurrent();
     _renderer = [SCNRenderer rendererWithContext:_context options:nil];
-    //_renderer.autoenablesDefaultLighting = YES;
+    _renderer.autoenablesDefaultLighting = YES;
     _renderer.playing = YES;
     
     if (_sceneSource != nil) {
