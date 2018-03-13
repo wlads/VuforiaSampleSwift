@@ -42,6 +42,14 @@
 		E4E8302B2049DCD6003E65A7 /* IT_about.html in Resources */ = {isa = PBXBuildFile; fileRef = E4E830252049DCD6003E65A7 /* IT_about.html */; };
 		E4E8302C2049DCD6003E65A7 /* StonesAndChips.dat in Resources */ = {isa = PBXBuildFile; fileRef = E4E830262049DCD6003E65A7 /* StonesAndChips.dat */; };
 		E4E8302D2049DCD6003E65A7 /* IT.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E830272049DCD6003E65A7 /* IT.png */; };
+		E4F05993205855C4002FF3E3 /* ModelSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F05992205855C4002FF3E3 /* ModelSelectionVC.swift */; };
+		E4F05999205859E7002FF3E3 /* trama_marrom_R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4F05995205859E7002FF3E3 /* trama_marrom_R.jpg */; };
+		E4F0599A205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.obj in Resources */ = {isa = PBXBuildFile; fileRef = E4F05996205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.obj */; };
+		E4F0599B205859E7002FF3E3 /* WoodFine_marrom_claro_R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4F05997205859E7002FF3E3 /* WoodFine_marrom_claro_R.jpg */; };
+		E4F0599C205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E4F05998205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.mtl */; };
+		E4F059A1205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E4F0599E205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl */; };
+		E4F059A2205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj in Resources */ = {isa = PBXBuildFile; fileRef = E4F0599F205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj */; };
+		E4F059A3205859EF002FF3E3 /* canyon_R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4F059A0205859EF002FF3E3 /* canyon_R.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +180,14 @@
 		E4E830252049DCD6003E65A7 /* IT_about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = IT_about.html; sourceTree = "<group>"; };
 		E4E830262049DCD6003E65A7 /* StonesAndChips.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = StonesAndChips.dat; sourceTree = "<group>"; };
 		E4E830272049DCD6003E65A7 /* IT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IT.png; sourceTree = "<group>"; };
+		E4F05992205855C4002FF3E3 /* ModelSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectionVC.swift; sourceTree = "<group>"; };
+		E4F05995205859E7002FF3E3 /* trama_marrom_R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trama_marrom_R.jpg; sourceTree = "<group>"; };
+		E4F05996205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CADEIRA_URBAN_TRAMA_MARROM_B.obj; sourceTree = "<group>"; };
+		E4F05997205859E7002FF3E3 /* WoodFine_marrom_claro_R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodFine_marrom_claro_R.jpg; sourceTree = "<group>"; };
+		E4F05998205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CADEIRA_URBAN_TRAMA_MARROM_B.mtl; sourceTree = "<group>"; };
+		E4F0599E205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl; sourceTree = "<group>"; };
+		E4F0599F205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj; sourceTree = "<group>"; };
+		E4F059A0205859EF002FF3E3 /* canyon_R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canyon_R.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,10 +281,13 @@
 			isa = PBXGroup;
 			children = (
 				E4B7A93C2052F752000F4C9D /* SOFA_SYME_3L_APP_COURO_BEGE */,
+				E4F05994205859E7002FF3E3 /* 0410661_CADEIRA */,
+				E4F0599D205859EF002FF3E3 /* 0412614_MESA */,
 				92AA11801D27A6CD00E56CBE /* VuforiaSampleSwift-Bridging-Header.h */,
 				927B76E31D27FF2300C4F5CC /* VuforiaManager */,
 				92AA11081D27A5EB00E56CBE /* AppDelegate.swift */,
 				92AA110A1D27A5EB00E56CBE /* ViewController.swift */,
+				E4F05992205855C4002FF3E3 /* ModelSelectionVC.swift */,
 				92AA110C1D27A5EB00E56CBE /* Main.storyboard */,
 				92AA110F1D27A5EB00E56CBE /* Assets.xcassets */,
 				92AA11111D27A5EB00E56CBE /* LaunchScreen.storyboard */,
@@ -459,6 +478,27 @@
 			path = "../../vuforia-sdk-ios-7-0-47/samples/VuforiaSamples-7-0-47/VuforiaSamples/Resources/Assets/VuforiaTargets";
 			sourceTree = "<group>";
 		};
+		E4F05994205859E7002FF3E3 /* 0410661_CADEIRA */ = {
+			isa = PBXGroup;
+			children = (
+				E4F05995205859E7002FF3E3 /* trama_marrom_R.jpg */,
+				E4F05996205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.obj */,
+				E4F05997205859E7002FF3E3 /* WoodFine_marrom_claro_R.jpg */,
+				E4F05998205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.mtl */,
+			);
+			path = 0410661_CADEIRA;
+			sourceTree = "<group>";
+		};
+		E4F0599D205859EF002FF3E3 /* 0412614_MESA */ = {
+			isa = PBXGroup;
+			children = (
+				E4F0599E205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl */,
+				E4F0599F205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj */,
+				E4F059A0205859EF002FF3E3 /* canyon_R.jpg */,
+			);
+			path = 0412614_MESA;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,21 +560,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F05999205859E7002FF3E3 /* trama_marrom_R.jpg in Resources */,
 				9275279C1FC2CE5200CE7DCE /* Background.fragsh in Resources */,
 				9275279D1FC2CE5200CE7DCE /* Background.vertsh in Resources */,
 				92AA11131D27A5EB00E56CBE /* LaunchScreen.storyboard in Resources */,
 				E4B7A9422052F752000F4C9D /* couro_bege.mtl in Resources */,
 				92AA11101D27A5EB00E56CBE /* Assets.xcassets in Resources */,
 				E4B7A9432052F752000F4C9D /* couro_bege.obj in Resources */,
+				E4F059A1205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.mtl in Resources */,
 				92AA11851D27B96300E56CBE /* Localizable.strings in Resources */,
 				E4B7A9442052F752000F4C9D /* WoodFine_marrom_escuro.jpg in Resources */,
 				E4E8302D2049DCD6003E65A7 /* IT.png in Resources */,
 				E4B7A9412052F752000F4C9D /* Leather_bege.jpg in Resources */,
+				E4F059A3205859EF002FF3E3 /* canyon_R.jpg in Resources */,
 				E4E8302C2049DCD6003E65A7 /* StonesAndChips.dat in Resources */,
 				E4E82D032049DC26003E65A7 /* license_3rdpartynotice.txt in Resources */,
+				E4F0599B205859E7002FF3E3 /* WoodFine_marrom_claro_R.jpg in Resources */,
 				E4E830292049DCD6003E65A7 /* Tarmac.xml in Resources */,
 				E4E8302B2049DCD6003E65A7 /* IT_about.html in Resources */,
 				E4E8302A2049DCD6003E65A7 /* StonesAndChips.xml in Resources */,
+				E4F0599C205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.mtl in Resources */,
+				E4F059A2205859EF002FF3E3 /* MESA_JANTAR_NEW_FOREST_P_CANYON_B.obj in Resources */,
+				E4F0599A205859E7002FF3E3 /* CADEIRA_URBAN_TRAMA_MARROM_B.obj in Resources */,
 				E4E8301F2049DC26003E65A7 /* readme.txt in Resources */,
 				E4E830282049DCD6003E65A7 /* Tarmac.dat in Resources */,
 				E4E82FF42049DC26003E65A7 /* readme.txt in Resources */,
@@ -551,6 +598,7 @@
 			files = (
 				927B76EA1D2806EF00C4F5CC /* VuforiaEAGLView.mm in Sources */,
 				927B76FD1D2816DB00C4F5CC /* VuforiaShaderUtils.m in Sources */,
+				E4F05993205855C4002FF3E3 /* ModelSelectionVC.swift in Sources */,
 				92AA110B1D27A5EB00E56CBE /* ViewController.swift in Sources */,
 				92AA11091D27A5EB00E56CBE /* AppDelegate.swift in Sources */,
 				927B76EB1D2806EF00C4F5CC /* VuforiaManager.mm in Sources */,

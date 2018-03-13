@@ -1,0 +1,26 @@
+# Blender MTL File: 'CENA_BASE.blend'
+# Material Count: 2
+
+newmtl madeira_clara_S.005
+Ns 9.803922
+Ka 0.226133 0.226133 0.226133
+Kd 0.345100 0.207800 0.125500
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd WoodFine_marrom_claro_R.jpg
+map_Ka WoodFine_marrom_claro_R.jpg
+
+newmtl trama_marrom_S.001
+Ns 9.803922
+Ka 0.133367 0.133367 0.133367
+Kd 0.176500 0.137300 0.086300
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd trama_marrom_R.jpg
+map_Ka trama_marrom_R.jpg

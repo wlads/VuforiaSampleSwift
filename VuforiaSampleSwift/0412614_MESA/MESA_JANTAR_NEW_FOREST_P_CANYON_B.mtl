@@ -1,0 +1,24 @@
+# Blender MTL File: 'CENA_BASE.blend'
+# Material Count: 2
+
+newmtl aluminio_preto_S.005
+Ns 9.803922
+Ka 0.003900 0.003900 0.003900
+Kd 0.003900 0.003900 0.003900
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl canyon_S.005
+Ns 9.803922
+Ka 0.278433 0.278433 0.278433
+Kd 0.419600 0.266700 0.149000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd canyon_R.jpg
+map_Ka canyon_R.jpg
